@@ -2,17 +2,26 @@
 <html>
     <head>
         <script src="scripts/board.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
-        
-        <button onclick="play_sound('hits',22)">
-            Hit!
-        </button>
-        <button onclick="play_sound('finishers',8)">
-            Finisher!
-        </button>
-        <audio id="soundboard_player">
-
-        </audio>
+        <div id="soundboard_body">
+            <div id="soundboard_title">
+                Felix SoundBoard
+            </div>
+            <div id="soundboard_box">
+                <button class="sound_button" onclick="play_sound('hits',22)">
+                    Hit!
+                </button>
+                <button class="sound_button" onclick="play_sound('finishers',8)">
+                    Finisher!
+                </button>
+                <button class="sound_button" onclick="play_sound('flicks',14)">
+                    Flick!
+                </button>
+                <audio id="soundboard_player">
+                </audio>
+            </div>
+        </div>            
     </body>
 </html>

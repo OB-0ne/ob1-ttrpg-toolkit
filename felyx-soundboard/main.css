@@ -1,0 +1,33 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#soundboard_box{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+#soundboard_body{
+    width: 90%;
+    margin: 15px auto;
+}
+
+#soundboard_title{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.sound_button{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin: 5px;
+    font-size: 14px;
+    background-color: darkgray;
+}
